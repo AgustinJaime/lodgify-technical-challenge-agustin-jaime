@@ -1,0 +1,15 @@
+.progress-bar-ctn {
+  padding: var(--p-small) var(--p-medium);
+}
+
+.progress-bar-base {
+  background-color: var(--secondary-color-light);
+  border-radius: 8rem;
+}
+
+.progress-bar-inner {
+  background-color: var(--secondary-color);
+  text-align: right;
+  padding: var(--p-tiny);
+  border-radius: 8rem;
+}

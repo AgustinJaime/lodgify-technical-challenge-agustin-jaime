@@ -1,12 +1,24 @@
 /* Mobile first */
 .app-container {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white);
+}
+
+.app-header {
+  background-color: var(--main-color);
+  padding: var(--p-small);
+  text-transform: uppercase;
+  text-align: right;
+  border-top-left-radius: var(--s-small);
+  border-top-right-radius: var(--s-small);
+  box-shadow: 0 1px 1px 0 rgb(202, 202, 202);
 }
 
 @media screen and (min-width: 576px) {
   .app-container {
     max-width: var(--web-max-width);
+    margin-top: var(--p-medium);
+    border-radius: var(--s-small);
     width: 80%;
     box-shadow: 0px 2px 5px 1px rgb(202, 202, 202);
   }
