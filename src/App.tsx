@@ -1,9 +1,11 @@
 import "./App.css";
+import ProgressBar from "./components/ProgressBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div className="app-container">
+      <header className="app-header"></header>
+      <ProgressBar />
     </div>
   );
 }
