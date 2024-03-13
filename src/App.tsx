@@ -1,5 +1,6 @@
 import "./App.css";
-import ProgressBar from "./components/ProgressBar";
+import ProgressBar from "./components/ProgressBar/ProgressBar";
+import TasksGroups from "./components/TasksGroup/TasksGroup";
 
 function App() {
   return (
@@ -7,7 +8,14 @@ function App() {
       <header className="app-header">
         <h1>Lodgify Grouped Tasks</h1>
       </header>
-      <ProgressBar />
+      <main>
+        <section>
+          <ProgressBar />
+        </section>
+        <section className="groups-section">
+          <TasksGroups />
+        </section>
+      </main>
     </div>
   );
 }

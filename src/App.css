@@ -14,6 +14,10 @@
   box-shadow: 0 1px 1px 0 rgb(202, 202, 202);
 }
 
+.groups-section {
+  padding: 0 var(--p-medium) var(--p-medium);
+}
+
 @media screen and (min-width: 576px) {
   .app-container {
     max-width: var(--web-max-width);

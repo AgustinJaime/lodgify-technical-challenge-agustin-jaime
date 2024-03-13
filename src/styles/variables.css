@@ -16,4 +16,8 @@
   --secondary-color: rgb(0, 234, 194);
   --secondary-color-light: rgb(209, 254, 246);
   --white: rgb(255, 255, 255);
+  --gray-lighter: rgb(242, 241, 241);
+  --gray-light: rgb(202, 202, 202);
+  --gray: rgb(171, 171, 171);
+  --gray-dark: rgb(92, 92, 92);
 }
