@@ -1,30 +1,58 @@
 import { CaretRight, ListBullets } from "@phosphor-icons/react";
 import "./TasksGroup.css";
 
-const TasksGroups = () => {
+interface Props {
+  group: Group;
+  groupIndex: number;
+  handleCheckBoxClick(
+    e: React.ChangeEvent<HTMLInputElement>,
+    groupIndex: number,
+    taskIndex: number
+  ): void;
+  handleExpandGroup(index: number): void;
+  expanded: boolean;
+  completed: boolean;
+}
+
+const TasksGroups = ({
+  group,
+  groupIndex,
+  expanded,
+  handleCheckBoxClick,
+  handleExpandGroup,
+  completed,
+}: Props) => {
   return (
-    <div className="group-ctn">
-      <div className="group-header">
+    <div className="group-ctn" key={`group_${groupIndex}_key`}>
+      <div
+        className="group-header"
+        onClick={() => handleExpandGroup(groupIndex)}
+      >
         <div className="group-header-section">
           <ListBullets className="list-i" />
-          <p>GROUP</p>
+          <p className={`${completed ? "group-completed" : ""}`}>
+            {group.name}
+          </p>
         </div>
         <div className="group-header-section">
           <p>Show</p>
-          <CaretRight className="arrow-i hovered" />
+          <CaretRight className={`arrow-i ${expanded ? "expanded" : ""}`} />
         </div>
       </div>
-      <div className="group-list">
-        <label>
-          <input
-            type="checkbox"
-            className="list-i"
-            // checked={true}
-            // onChange={handleCheckboxChange}
-          />
-          Task 2-1
-        </label>
-      </div>
+      {expanded &&
+        group.tasks.map((task, taskIndex) => (
+          <div key={`task_${taskIndex}_key`} className="group-list">
+            <label>
+              <input
+                type="checkbox"
+                className="list-i"
+                checked={task.checked}
+                onChange={(e) => handleCheckBoxClick(e, groupIndex, taskIndex)}
+              />
+              {task.description}
+            </label>
+          </div>
+        ))}
     </div>
   );
 };

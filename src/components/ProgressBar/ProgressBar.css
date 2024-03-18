@@ -10,6 +10,8 @@
 .progress-bar-inner {
   background-color: var(--secondary-color);
   text-align: right;
-  padding: var(--p-tiny);
   border-radius: 8rem;
+  > p {
+    padding-left: var(--p-small);
+  }
 }

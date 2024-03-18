@@ -1,6 +1,10 @@
 .group-ctn {
   border: 1px solid var(--gray-light);
   border-radius: var(--s-small);
+  cursor: pointer;
+}
+.group-ctn:not(:last-child) {
+  margin-bottom: var(--p-small);
 }
 
 .group-header {
@@ -19,7 +23,7 @@
   transition: transform 0.3s ease;
 }
 
-.arrow-i.hovered {
+.arrow-i.expanded {
   transform: rotate(90deg);
 }
 
@@ -33,4 +37,8 @@
   box-shadow: 0 0 3px inset var(--gray-light);
   border-bottom-left-radius: var(--s-small);
   border-bottom-right-radius: var(--s-small);
+}
+
+.group-completed {
+  color: var(--secondary-color);
 }
