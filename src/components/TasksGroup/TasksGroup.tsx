@@ -23,10 +23,12 @@ const TasksGroups = ({
   completed,
 }: Props) => {
   return (
-    <div className="group-ctn" key={`group_${groupIndex}_key`}>
+    <div className="group-ctn">
       <div
         className="group-header"
-        onClick={() => handleExpandGroup(groupIndex)}
+        {...(group.tasks.length
+          ? { onClick: () => handleExpandGroup(groupIndex) }
+          : {})}
       >
         <div className="group-header-section">
           <ListBullets className="list-i" />

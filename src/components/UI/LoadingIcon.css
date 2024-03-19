@@ -1,0 +1,13 @@
+.animated-loading-icon {
+  animation: Icon-spin infinite 1s linear;
+  padding: 0 var(--p-small);
+}
+
+@keyframes Icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
