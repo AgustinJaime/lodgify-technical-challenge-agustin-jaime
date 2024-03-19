@@ -1,7 +1,18 @@
-export const fetchedDataMock = [
+const fetchedDataMock = [
   {
     name: "Group 1",
-    tasks: [],
+    tasks: [
+      {
+        description: "Task 1 - 1",
+        value: 10,
+        checked: true,
+      },
+      {
+        description: "Task 2 - 1",
+        value: 20,
+        checked: false,
+      },
+    ],
   },
   {
     name: "Group 2",
@@ -13,7 +24,7 @@ export const fetchedDataMock = [
       },
       {
         description: "Task 2 - 1",
-        value: 38,
+        value: 20,
         checked: false,
       },
     ],
@@ -23,9 +34,16 @@ export const fetchedDataMock = [
     tasks: [
       {
         description: "Task 1 - 1",
-        value: 40,
+        value: 20,
         checked: false,
       },
     ],
   },
 ];
+
+export const mockInitialState = {
+  tasks: {
+    loading: "SUCCEEDED",
+    data: fetchedDataMock,
+  },
+};

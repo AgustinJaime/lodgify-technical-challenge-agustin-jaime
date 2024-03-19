@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App> should render without issues 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="app-container"
+      >
+        <header
+          class="app-header"
+        >
+          <h1>
+            Lodgify Grouped Tasks
+          </h1>
+        </header>
+        <main>
+          <section
+            data-testid="progressBarTestId"
+          >
+            <div
+              class="progress-bar-ctn"
+            >
+              <div
+                class="progress-bar-base"
+              >
+                <div
+                  class="progress-bar-inner"
+                  style="padding: 0.5rem 0.5rem; width: 10%; transition: width 150ms ease;"
+                >
+                  <p>
+                    10%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="groups-section"
+            data-testid="groupsTestId"
+          >
+            <div
+              class="group-ctn"
+            >
+              <div
+                class="group-header"
+                data-testid="groupHeaderTestId_0"
+              >
+                <div
+                  class="group-header-section"
+                >
+                  <svg
+                    class="list-i"
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 256 256"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                    />
+                  </svg>
+                  <p
+                    class=""
+                  >
+                    Group 1
+                  </p>
+                </div>
+                <div
+                  class="group-header-section"
+                >
+                  <p>
+                    Show
+                  </p>
+                  <svg
+                    class="arrow-i "
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 256 256"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="group-ctn"
+            >
+              <div
+                class="group-header"
+                data-testid="groupHeaderTestId_1"
+              >
+                <div
+                  class="group-header-section"
+                >
+                  <svg
+                    class="list-i"
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 256 256"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                    />
+                  </svg>
+                  <p
+                    class=""
+                  >
+                    Group 2
+                  </p>
+                </div>
+                <div
+                  class="group-header-section"
+                >
+                  <p>
+                    Show
+                  </p>
+                  <svg
+                    class="arrow-i "
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 256 256"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="group-ctn"
+            >
+              <div
+                class="group-header"
+                data-testid="groupHeaderTestId_2"
+              >
+                <div
+                  class="group-header-section"
+                >
+                  <svg
+                    class="list-i"
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 256 256"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                    />
+                  </svg>
+                  <p
+                    class=""
+                  >
+                    Group 3
+                  </p>
+                </div>
+                <div
+                  class="group-header-section"
+                >
+                  <p>
+                    Show
+                  </p>
+                  <svg
+                    class="arrow-i "
+                    fill="currentColor"
+                    height="1em"
+                    viewBox="0 0 256 256"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="app-container"
+    >
+      <header
+        class="app-header"
+      >
+        <h1>
+          Lodgify Grouped Tasks
+        </h1>
+      </header>
+      <main>
+        <section
+          data-testid="progressBarTestId"
+        >
+          <div
+            class="progress-bar-ctn"
+          >
+            <div
+              class="progress-bar-base"
+            >
+              <div
+                class="progress-bar-inner"
+                style="padding: 0.5rem 0.5rem; width: 10%; transition: width 150ms ease;"
+              >
+                <p>
+                  10%
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="groups-section"
+          data-testid="groupsTestId"
+        >
+          <div
+            class="group-ctn"
+          >
+            <div
+              class="group-header"
+              data-testid="groupHeaderTestId_0"
+            >
+              <div
+                class="group-header-section"
+              >
+                <svg
+                  class="list-i"
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 256 256"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                  />
+                </svg>
+                <p
+                  class=""
+                >
+                  Group 1
+                </p>
+              </div>
+              <div
+                class="group-header-section"
+              >
+                <p>
+                  Show
+                </p>
+                <svg
+                  class="arrow-i "
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 256 256"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group-ctn"
+          >
+            <div
+              class="group-header"
+              data-testid="groupHeaderTestId_1"
+            >
+              <div
+                class="group-header-section"
+              >
+                <svg
+                  class="list-i"
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 256 256"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                  />
+                </svg>
+                <p
+                  class=""
+                >
+                  Group 2
+                </p>
+              </div>
+              <div
+                class="group-header-section"
+              >
+                <p>
+                  Show
+                </p>
+                <svg
+                  class="arrow-i "
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 256 256"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group-ctn"
+          >
+            <div
+              class="group-header"
+              data-testid="groupHeaderTestId_2"
+            >
+              <div
+                class="group-header-section"
+              >
+                <svg
+                  class="list-i"
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 256 256"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                  />
+                </svg>
+                <p
+                  class=""
+                >
+                  Group 3
+                </p>
+              </div>
+              <div
+                class="group-header-section"
+              >
+                <p>
+                  Show
+                </p>
+                <svg
+                  class="arrow-i "
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 256 256"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -48,7 +48,7 @@ function App() {
       [index]: !groupExpanded[index],
     });
   };
-
+  console.log(loading);
   return (
     <div className="app-container">
       <header className="app-header">
@@ -66,10 +66,10 @@ function App() {
         ) : null}
         {loading === LoadingStatus.SUCCEEDED ? (
           <>
-            <section>
+            <section data-testid="progressBarTestId">
               <ProgressBar progress={progress} />
             </section>
-            <section className="groups-section">
+            <section className="groups-section" data-testid="groupsTestId">
               {tasksData.length ? (
                 <>
                   {tasksData.map((group, groupIndex) => (

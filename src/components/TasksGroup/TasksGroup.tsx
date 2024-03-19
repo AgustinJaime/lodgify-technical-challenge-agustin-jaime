@@ -25,6 +25,7 @@ const TasksGroups = ({
   return (
     <div className="group-ctn">
       <div
+        data-testid={`groupHeaderTestId_${groupIndex}`}
         className="group-header"
         {...(group.tasks.length
           ? { onClick: () => handleExpandGroup(groupIndex) }
@@ -43,7 +44,11 @@ const TasksGroups = ({
       </div>
       {expanded &&
         group.tasks.map((task, taskIndex) => (
-          <div key={`task_${taskIndex}_key`} className="group-list">
+          <div
+            key={`task_${taskIndex}_key`}
+            className="group-list"
+            data-testid={`taskTestId_${taskIndex}`}
+          >
             <label>
               <input
                 type="checkbox"
